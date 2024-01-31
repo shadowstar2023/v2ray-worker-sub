@@ -2141,16 +2141,49 @@ var fpList = [
   "random"
 ];
 var domainList = [
-  "discord.com",
-  "laravel.com",
-  "cdnjs.com",
-  "www.speedtest.net",
-  "workers.dev",
-  "nginx.com",
-  "chat.openai.com",
-  "auth0.openai.com",
-  "codepen.io",
-  "api.jquery.com"
+  "gamer.com.tw",
+  "steamdb.info",
+  "toy-people.com",
+  "silkbook.com",
+  "cdn.anycast.eu.org",
+  "icook.hk",
+  "shopify.com",
+  "www.visa.com.tw",
+  "time.is",
+  "japan.com",
+  "www.hugedomains.com",
+  "www.visa.com.sg",
+  "www.whoer.net",
+  "www.visa.com.hk",
+  "malaysia.com",
+  "www.visa.co.jp",
+  "www.ipget.net",
+  "icook.tw",
+  "www.visa.com",
+  "www.gov.ua",
+  "www.udacity.com",
+  "www.shopify.com",
+  "www.whatismyip.com",
+  "singapore.com",
+  "www.visakorea.com",
+  "www.csgo.com",
+  "russia.com",
+  "ip.sb",
+  "www.4chan.org",
+  "www.glassdoor.com",
+  "xn--b6gac.eu.org",
+  "www.digitalocean.com",
+  "www.udemy.com",
+  "cdn-all.xn--b6gac.eu.org",
+  "dnschecker.org",
+  "tasteatlas.com",
+  "pixiv.net",
+  "comicabc.com",
+  "icook.tw",
+  "gamer.com.tw",
+  "steamdb.info",
+  "toy-people.com",
+  "silkbook.com"
 ];
 var src_default = {
   async fetch(request) {
@@ -2304,79 +2337,79 @@ var src_default = {
     } else {
       return new Response(`<!DOCTYPE html>
 <body dir="rtl">
-  <h3><font color="green">\u0647\u0645\u0647 \u0686\u06CC \u062F\u0631\u0633\u062A\u0647</font></h3>
+  <h3><font color="green">设置正确</font></h3>
   <p />
   <p>
-    \u0627\u06CC\u0646 \u0644\u06CC\u0646\u06A9 sub \u0631\u0627 \u062F\u0631 \u0627\u067E v2ray \u062E\u0648\u062F \u0628\u0647 \u0634\u06A9\u0644 \u0632\u06CC\u0631 \u06A9\u067E\u06CC \u06A9\u0646\u06CC\u062F. \u062F\u0631 \u0627\u06CC\u0646 \u0635\u0648\u0631\u062A \u06CC\u06A9 \u062F\u0627\u0645\u06CC\u0646 \u0627\u062A\u0641\u0627\u0642\u06CC \u0627\u0632 \u062E\u0648\u062F \u0648\u0631\u06A9\u0631 \u0628\u0647 \u0639\u0646\u0648\u0627\u0646 \u0622\u06CC\u200C\u067E\u06CC \u062A\u0645\u06CC\u0632 \u0627\u0646\u062A\u062E\u0627\u0628 \u0634\u062F\u0647 \u0648 \u0631\u0648\u06CC \u0628\u06CC\u0634\u062A\u0631 \u0627\u0648\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627 \u0628\u0627 \u06A9\u06CC\u0641\u06CC\u062A \u062E\u0648\u0628 \u067E\u0627\u0633\u062E \u062E\u0648\u0627\u0647\u062F \u062F\u0627\u062F:
+    订阅示例1.把这个链接复制到v2ray订阅地址,默认使用你的worker地址：
   </p>
   <p>
     <a href="https://${url.hostname}/sub">https://${url.hostname}/sub</a>
   </p>
   <p>
-    \u0627\u06CC\u0646 \u0644\u06CC\u0646\u06A9 sub \u0631\u0627 \u0647\u0645\u0631\u0627\u0647 \u0628\u0627 \u06A9\u062F \u0627\u067E\u0631\u0627\u062A\u0648\u0631 \u062F\u0631 \u0627\u067E v2ray \u062E\u0648\u062F \u06A9\u067E\u06CC \u06A9\u0646\u06CC\u062F. \u0628\u0631\u0627\u06CC \u0645\u062B\u0627\u0644 \u062F\u0631 \u0647\u0645\u0631\u0627\u0647 \u0627\u0648\u0644 \u0628\u0647 \u0634\u06A9\u0644 \u0632\u06CC\u0631 \u062E\u0648\u0627\u0647\u062F \u0628\u0648\u062F:
+    订阅示例2.用默认的CF优选IP做节点地址:
   </p>
   <p>
     <a href="https://${url.hostname}/sub/mci">https://${url.hostname}/sub/mci</a>
   </p>
   <p>
-    \u0648 \u06CC\u0627 \u0647\u0645\u06CC\u0646 \u0644\u06CC\u0646\u06A9 \u0631\u0627 \u0647\u0645\u0631\u0627\u0647 \u0622\u06CC\u200C\u067E\u06CC \u062A\u0645\u06CC\u0632 \u062F\u0631 \u0627\u067E \u062E\u0648\u062F \u0627\u0636\u0627\u0641\u0647 \u06A9\u0646\u06CC\u062F:
+    订阅示例3.指定优选IP做为你的节点地址，把127.0.0.1换成你的优选IP即可:
   </p>
   <p>
-    <a href="https://${url.hostname}/sub/1.2.3.4">https://${url.hostname}/sub/1.2.3.4</a>
+    <a href="https://${url.hostname}/sub/127.0.0.1">https://${url.hostname}/sub/127.0.0.1</a>
   </p>
   <p>
-    \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u06CC\u062F \u0686\u0646\u062F \u0622\u06CC\u200C\u067E\u06CC \u062A\u0645\u06CC\u0632 \u0631\u0627 \u0628\u0627 \u06A9\u0627\u0645\u0627 \u062C\u062F\u0627 \u06A9\u0646\u06CC\u062F. \u062F\u0631 \u0627\u06CC\u0646 \u0635\u0648\u0631\u062A \u0628\u0631\u0627\u06CC \u0647\u0631 \u0622\u06CC\u200C\u067E\u06CC \u062A\u0645\u06CC\u0632 \u0628\u0647 \u062A\u0639\u062F\u0627\u062F \u0642\u062F\u06CC\u062F \u0634\u062F\u0647\u060C \u06A9\u0627\u0646\u0641\u06CC\u06A9 \u062A\u0631\u06A9\u06CC\u0628 \u0634\u062F\u0647 \u0628\u0627 \u0648\u0631\u06A9\u0631 \u062A\u062D\u0648\u06CC\u0644 \u0645\u06CC \u062F\u0647\u062F:
+    订阅示例4.指定多个优选IP做为你的节点地址，把127.0.0.1,127.0.0.2换成你的优选IP即可，每个IP用“,”隔开:
   </p>
   <p>
-    <a href="https://${url.hostname}/sub/1.2.3.4,9.8.7.6">https://${url.hostname}/sub/1.2.3.4,9.8.7.6</a>
+    <a href="https://${url.hostname}/sub/127.0.0.1,127.0.0.2">https://${url.hostname}/sub/127.0.0.1,127.0.0.2</a>
   </p>
   <p>
-    \u062F\u0642\u06CC\u0642\u0627 \u0628\u0627 \u0647\u0645\u06CC\u0646 \u0645\u062F\u0644 \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u06CC\u062F \u062F\u0627\u0645\u06CC\u0646 \u0622\u06CC\u200C\u067E\u06CC \u062A\u0645\u06CC\u0632 \u0646\u06CC\u0632 \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u06A9\u0646\u06CC\u062F:
+    订阅示例5.指定优选域名做为你的节点地址，把skk.moe换成你的优选域名即可:
   </p>
   <p>
-    <a href="https://${url.hostname}/sub/mci.ircf.space">https://${url.hostname}/sub/mci.ircf.space</a>
+    <a href="https://${url.hostname}/sub/skk.moe">https://${url.hostname}/sub/skk.moe</a>
   </p>
   <p>
-    \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u06CC\u062F \u0627\u0632 \u0686\u0646\u062F \u0633\u0627\u0628\u062F\u0627\u0645\u0646\u06CC\u0646 \u0622\u06CC\u0621\u06CC \u062A\u0645\u06CC\u0632 \u0646\u06CC\u0632 \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u06A9\u0646\u06CC\u062F:
+    订阅示例6.指定多优选域名做为你的节点地址，把sub/skk.moe,my.icook.hk换成你的优选域名即可，每个优选域名用“,”隔开:
   </p>
   <p>
-    <a href="https://${url.hostname}/sub/mci.ircf.space,my.domain.me">https://${url.hostname}/sub/mci.ircf.space,my.domain.me</a>
+    <a href="https://${url.hostname}/sub/skk.moe,my.icook.hk">https://${url.hostname}/sub/skk.moe,my.icook.hk</a>
   </p>
   <p>
-    \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u06CC\u062F \u0628\u0627 \u0645\u062A\u063A\u06CC\u0631 max \u062A\u0639\u062F\u0627\u062F \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0631\u0627 \u0645\u0634\u062E\u0635 \u06A9\u0646\u06CC\u062F:
+    订阅示例7.用max=的值做变量，指定相应的节点订阅数量，比如订阅200个，max=200,1000个则max=1000,目前最多应该有3000+:
   </p>
   <p>
     <a href="https://${url.hostname}/sub?max=200">https://${url.hostname}/sub?max=200</a>
   </p>
   <p>
-    \u0647\u0645\u0686\u0646\u06CC\u0646 \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u06CC\u062F \u0628\u0627 \u0645\u062A\u063A\u06CC\u0631 original \u0628\u0627 \u0639\u062F\u062F 0 \u06CC\u0627 1 \u0648 \u06CC\u0627 \u0628\u0627 yes/no \u0645\u0634\u062E\u0635 \u06A9\u0646\u06CC\u062F \u06A9\u0647 \u06A9\u0627\u0646\u0641\u06CC\u06AF\u200C\u0647\u0627\u06CC \u0627\u0635\u0644\u06CC (\u062A\u0631\u06A9\u06CC\u0628 \u0646\u0634\u062F\u0647 \u0628\u0627 \u0648\u0631\u06A9\u0631) \u0647\u0645 \u062F\u0631 \u062E\u0631\u0648\u062C\u06CC \u0622\u0648\u0631\u062F\u0647 \u0634\u0648\u0646\u062F \u06CC\u0627 \u0646\u0647:
+    订阅示例8.用max=的值做变量，指定相应的节点订阅数量，比如订阅200个，并指定优选IP，用original的值（yes/no或者0/1）决定是否包含原始节点的地址:
   </p>
   <p>
-    <a href="https://${url.hostname}/sub/1.2.3.4?max=200&original=yes">https://${url.hostname}/sub/1.2.3.4?max=200&original=yes</a>
+    <a href="https://${url.hostname}/sub/1.2.3.4?max=200&original=yes">https://${url.hostname}/sub/127.0.0.1?max=200&original=yes</a>
   </p>
   <p>
     <a href="https://${url.hostname}/sub?max=200&original=0">https://${url.hostname}/sub?max=200&original=0</a>
   </p>
   <p>
-    \u062F\u0631 \u0635\u0648\u0631\u062A \u0644\u0632\u0648\u0645 \u0645\u06CC \u062A\u0648\u0627\u0646\u06CC\u062F \u0628\u0627 \u0645\u062A\u063A\u06CC\u0631 merge \u0645\u0634\u062E\u0635 \u06A9\u0646\u06CC\u062F \u06A9\u0647 \u06A9\u0627\u0646\u0641\u06CC\u06AF\u200C\u0647\u0627\u06CC \u062A\u0631\u06A9\u06CC\u0628\u06CC \u062D\u0630\u0641 \u0634\u0648\u0646\u062F:
+    订阅示例9.如有必要用merge的值（yes/no）决定是否合并配置:
   </p>
   <p>
     <a href="https://${url.hostname}/sub?max=200&original=yes&merge=no">https://${url.hostname}/sub?max=200&original=yes&merge=no</a>
   </p>
   <p>
-    \u0647\u0645\u0686\u0646\u06CC\u0646 \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u06CC\u062F fp \u0648 alpn \u0631\u0627 \u0646\u06CC\u0632 \u0645\u0634\u062E\u0635 \u06A9\u0646\u06CC\u062F:
+    订阅示例10.如有必要，用fp设置fingerprint浏览器指纹，指定alpn设置（PS：这些都没用什么鸟用）:
   </p>
   <p>
     <a href="https://${url.hostname}/sub?max=200&fp=chrome&alpn=h2,http/1.1">https://${url.hostname}/sub?max=200&fp=chrome&alpn=h2,http/1.1</a>
   </p>
   <p>
-    \u062F\u0631 \u0635\u0648\u0631\u062A \u0646\u06CC\u0627\u0632 \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u06CC\u062F \u0628\u0631\u0627\u06CC \u06A9\u0627\u0646\u0641\u06CC\u06AF\u200C\u0647\u0627\u06CC \u0627\u0635\u0644\u06CC\u060C \u062A\u0639\u06CC\u06CC\u0646 \u06A9\u0646\u06CC\u062F \u06A9\u0647 \u06A9\u062F\u0627\u0645 \u0646\u0648\u0639 \u0627\u0632 \u06A9\u0627\u0646\u0641\u06CC\u06AF\u200C\u0647\u0627 \u0631\u0627 \u0628\u0631\u0627\u06CC \u0634\u0645\u0627 \u0644\u06CC\u0633\u062A \u06A9\u0646\u062F:
+    订阅示例11.如有必要，指定协议（PS：这些都没用什么鸟用）:
   </p>
   <p>
     <a href="https://${url.hostname}/sub?max=200&type=vmess,ss,ssr,vless">https://${url.hostname}/sub?max=200&type=vmess,ss,ssr,vless</a>
   </p>
   <p>
-    \u062F\u0631 \u0635\u0648\u0631\u062A \u0646\u06CC\u0627\u0632 \u0645\u06CC\u200C\u062A\u0648\u0627\u0646\u06CC\u062F \u0644\u06CC\u0633\u062A \u067E\u0631\u0648\u0648\u0627\u06CC\u062F\u0631\u0647\u0627 \u0631\u0627 \u0645\u062D\u062F\u0648\u062F \u06A9\u0646\u06CC\u062F:
+    订阅示例12.如有必要，指定抓取的节点库（PS：这些都没用什么鸟用）:
   </p>
   <p>
     <a href="https://${url.hostname}/sub?provider=mahdibland,vpei">https://${url.hostname}/sub?provider=mahdibland,vpei</a>
