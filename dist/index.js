@@ -1919,7 +1919,7 @@ var configProviders = [
     type: "b64",
     random: true,
     urls: [
-      "https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt"
+      "https://raw.githubusercontent.com/shadowstar2023/free-node-1/main/o/node.txt"
     ]
   },
   {
