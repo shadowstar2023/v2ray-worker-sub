@@ -1938,6 +1938,14 @@ var configProviders = [
       "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt"
     ]
   },
+   {
+    name: "peasoft",
+    type: "b64",
+    random: true,
+    urls: [
+      "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt"
+    ]
+  },
   {
     name: "ermaozi",
     type: "b64",
@@ -1987,11 +1995,123 @@ var configProviders = [
     ]
   },
   {
+    name: "lflflf999",
+    type: "b64",
+    random: true,
+    urls: [
+      "https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD"
+    ]
+  },
+  {
+    name: "mksshare",
+    type: "raw",
+    random: true,
+    urls: [
+      "https://raw.githubusercontent.com/mksshare/mksshare.github.io/main/README.md"
+    ]
+  },
+  {
+    name: "ripaojiedian",
+    type: "b64",
+    random: true,
+    urls: [
+      "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub"
+    ]
+  },
+  {
+    name: "abshare",
+    type: "raw",
+    random: true,
+    urls: [
+      "https://raw.githubusercontent.com/abshare/abshare.github.io/main/README.md"
+    ]
+  },
+  {
+    name: "bulianglin",
+    type: "b64",
+    random: true,
+    urls: [
+      "https://sub.cfno1.eu.org/sub_bulianglin"
+    ]
+  },
+  {
+    name: "paimon",
+    type: "b64",
+    random: true,
+    urls: [
+      "https://prop.cf/?name=paimon&client=base64"
+    ]
+  },
+  {
+    name: "vpnyyds",
+    type: "b64",
+    random: true,
+    urls: [
+      "https://vpnyyds.link/free"
+    ]
+  },
+  {
+    name: "Mosi",
+    type: "raw",
+    random: true,
+    urls: [
+      "http://mosi.monster.freehost.io/Mosi/Mosi.Reality.txt"
+    ]
+  },
+  {
+    name: "Mosi",
+    type: "raw",
+    random: true,
+    urls: [
+      "http://mosi.monster.freehost.io/Mosi/Mosi.Reality.txt"
+    ]
+  },
+  {
+    name: "mahsanet",
+    type: "b64",
+    random: true,
+    urls: [
+      "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_1.txt",
+      "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_2.txt",
+      "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_3.txt",
+      "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mci/sub_4.txt",
+      "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_1.txt",
+      "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_2.txt",
+      "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_3.txt",
+      "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/main/mtn/sub_4.txt"
+    ]
+  },
+  {
     name: "pawdroid",
     type: "b64",
     random: true,
     urls: [
       "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+    ]
+  },
+  {
+    name: "soroushmirzaei",
+    type: "b64",
+    random: true,
+    urls: [
+      "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/subscribe"
+    ]
+  },
+  {
+    name: "barry-far",
+    type: "raw",
+    random: true,
+    urls: [
+      "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt"
+    ]
+  },
+  {
+    name: "yebekhe",
+    type: "raw",
+    random: true,
+    urls: [
+      "https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/normal/mix",
+      "https://raw.githubusercontent.com/yebekhe/V2Hub/main/merged"
     ]
   }
 ];
